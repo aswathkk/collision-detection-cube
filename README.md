@@ -6,7 +6,7 @@ Header file location may varry with respect to the installation. So fix the head
 eg: in macOS, you have to use `#include <GLUT/glut.h>`. In linux, you need to use `#include <GL/glut.h>`.
 Compiling in MacOS :
 
-    $ g++ collision.c -framework OpenGL -framework GLUT -o collision
+    $ g++ collision.cpp -framework OpenGL -framework GLUT -o collision
     
 To run, 
 
@@ -14,7 +14,7 @@ To run,
     
 Compiling in Linux :
 
-    $ g++ collision.c -lGL -lGLU -lglut -o collision
+    $ g++ collision.cpp -lGL -lGLU -lglut -o collision
 
 # Controls
 Cube 1
